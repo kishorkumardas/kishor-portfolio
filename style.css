@@ -75,6 +75,10 @@
     height: 600px;
     /* border: 2px solid gold; */
 }
+.social-icon{
+    font-size: 100px; 
+    color:blue;"
+}
 
 .parallax {
    
@@ -139,7 +143,7 @@ footer span{
     .profile-text{
         position: absolute;
         top: 215px;
-        margin-left: 15px;
+        margin-left: 5px;
         font-size: 40px;
         color: #444444;
         font-family: 'Poppins-Bold';
