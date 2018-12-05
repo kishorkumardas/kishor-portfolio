@@ -141,7 +141,7 @@ footer span{
     }
 
 }
-@media(max-width:767.98px){
+@media(max-width:576px){
     .profile-img-area{
     background-image: url(2.jpg);
     background-repeat: no-repeat;
