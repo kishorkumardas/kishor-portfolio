@@ -1,0 +1,143 @@
+@font-face{
+    font-family: 'Gloria Hallelujah', cursive;
+    src: url('GloriaHallelujah.ttf');
+}
+@font-face{
+    font-family: 'Poppins-Bold';
+    src: url('Poppins-Bold.ttf');
+}
+
+.brand-name{
+    font-family: 'Gloria Hallelujah', cursive;
+    
+}
+
+.nav-link:hover{
+    color:#2DD00B!important;
+    border-bottom: 2px solid #2DD00B;
+}
+.c-menu-font-s{
+    font-size: 20px;
+}
+.brand-name:hover{
+    color: #2DD00B !important;
+}
+.profile-img-area{
+    background-image: url(2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid gold; */
+   
+}
+.Profile-text-area{
+    position: relative;
+    
+}
+.profile-text{
+    position: absolute;
+    top: 132px;
+    margin-left: 15px;
+    font-size: 70px;
+    color: #444444;
+    font-family: 'Poppins-Bold';
+}
+.Pname{
+    background: #2DD00B;
+    /* border: 2px solid red; */
+    width: 405px;
+    padding: 5px;
+    color: whitesmoke;
+    font-size: 39px;
+    position: absolute;
+    top: 329px;
+    margin: 15px;
+    font-family: 'Poppins-Bold';
+
+}
+.recent-work{
+    width: 100%;
+    height: 250px;
+    background: #2DD00B;
+    text-align: center;
+    padding-top: 45px;
+}
+.no-space{
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+.about-kishor-img{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid gold; */
+}
+
+.parallax {
+   
+    background-image: url("coders.png");
+    min-height: 600px; 
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+.Certification-text{
+    text-align: center;
+    color: #444444;
+    margin-top: 40px;
+}
+.k-skills{
+    /* border: 2px solid red; */
+    padding-left: 75px;
+    margin-top: 50px;
+}
+.skill-title{
+    text-align: center;
+    color: #444444;
+    margin-bottom: 30px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background:#444444;
+    position: relative;
+    
+    
+}
+footer span{
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+}
+@media(max-width:767.98px){
+    .Pname{
+        background: #2DD00B;
+        /* border: 2px solid red; */
+        width: 210px;
+        padding: 5px;
+        color: whitesmoke;
+        font-size: 20px;
+        position: absolute;
+        top: 329px;
+        margin: 5px;
+        font-family: 'Poppins-Bold';
+    
+    }
+    .profile-text{
+        position: absolute;
+        top: 215px;
+        margin-left: 15px;
+        font-size: 40px;
+        color: #444444;
+        font-family: 'Poppins-Bold';
+    }
+
+}
